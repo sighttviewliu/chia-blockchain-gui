@@ -8,7 +8,7 @@ msgstr ""
 "Language: ko_KR\n"
 "Project-Id-Version: chia-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-04-24 12:26\n"
+"PO-Revision-Date: 2021-04-24 18:24\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -1211,7 +1211,7 @@ msgstr "{0} 의 복제된 구성"
 
 #: src/components/dashboard/DashboardSideBar.tsx:25
 msgid "Plots"
-msgstr "구성들"
+msgstr "플롯"
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:19
 msgid "Plots Passed Filter"
@@ -1644,7 +1644,7 @@ msgstr ""
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
 #: src/components/plot/add/PlotAddChooseSize.tsx:74
 msgid "The minimum required size for mainnet is k=32"
-msgstr ""
+msgstr "mainnet을 위한 최소 사이즈는 k=32입니다."
 
 #: src/components/fullNode/FullNode.jsx:124
 msgid "The node is not synced"
@@ -1923,7 +1923,7 @@ msgstr "지갑"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
 msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr ""
+msgstr "Chia를 더 얻고 싶다면, 더 많은 플롯들을 당신의 농장에 추가하세요."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:53
 msgid "Want to have a delay before the next plot starts?"
@@ -1943,7 +1943,7 @@ msgstr "Chia에 오신 것을 환영합니다. 사용하고 계신 키로 로그
 
 #: src/components/wallet/WalletAdd.tsx:35
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
-msgstr ""
+msgstr "환영합니다. 다음의 단어들은 당신의 지갑 백업에 사용됩니다. 단어를 잊는다면, 지갑 접근 권한을 잃게 될 것이기 때문에 꼭 저장하세요. 각각의 단어를 순서에 맞게 적어두세요. (순서가 매우 중요합니다)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:324
 msgid "When you receive the setup info packet from your admin, enter it below to complete your Rate Limited Wallet setup:"
