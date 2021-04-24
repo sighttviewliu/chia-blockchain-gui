@@ -8,7 +8,7 @@ msgstr ""
 "Language: uk_UA\n"
 "Project-Id-Version: chia-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-04-23 18:33\n"
+"PO-Revision-Date: 2021-04-24 06:28\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -867,7 +867,7 @@ msgstr "KiB Вивантаження/Завантаження"
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:37
 msgid "Last Attempted Proof"
-msgstr "Остання спроба підтвердження"
+msgstr "Остання спроба доказу"
 
 #: src/components/farm/card/FarmCardLastHeightFarmed.tsx:8
 msgid "Last Height Farmed"
@@ -1282,15 +1282,15 @@ msgstr "Хеш попереднього заголовка"
 
 #: src/components/selectKey/SelectKey.tsx:87
 msgid "Private key with public fingerprint {fingerprint}"
-msgstr "Приватний ключ з публічним відбитком пальця {fingerprint}"
+msgstr "Закритий ключ з публічним відбитком пальця {fingerprint}"
 
 #: src/middleware/middleware_api.jsx:247
 msgid "Private key {0}"
-msgstr "Приватний ключ {0}"
+msgstr "Закритий ключ {0}"
 
 #: src/middleware/middleware_api.jsx:257
 msgid "Private key:"
-msgstr "Приватний ключ:"
+msgstr "Закритий ключ:"
 
 #: src/components/block/Block.jsx:240
 msgid "Proof of Space Size"
@@ -1706,7 +1706,7 @@ msgstr "Це час, коли блок був створений фермеро�
 
 #: src/components/wallet/standard/WalletStandard.tsx:195
 msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Це загальна кількість chia в блокчейку на поточному піковому блоці, який контролюється вашими приватними ключами. Він включає в себе заморожені фермерські винагороди, але не очікувані вхідні та вихідні транзакції."
+msgstr "Це загальна кількість chia в блокчейку на поточному піковому блоці, який контролюється вашими закритими ключами. Він включає в себе заморожені фермерські винагороди, але не очікувані вхідні та вихідні транзакції."
 
 #: src/components/wallet/standard/WalletStandard.tsx:218
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
