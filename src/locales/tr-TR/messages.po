@@ -8,7 +8,7 @@ msgstr ""
 "Language: tr_TR\n"
 "Project-Id-Version: chia-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-04-23 18:33\n"
+"PO-Revision-Date: 2021-04-24 00:30\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -1231,7 +1231,7 @@ msgstr "Eş zamanlı plot yapmak zaman kazandırabilir. Ya da sıraya başka plo
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
 msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disable bitfield plotting."
-msgstr ""
+msgstr "Bitfield etkinken çizim yapmak yaklaşık% 30 daha az genel yazma sağlar ve artık neredeyse her zaman daha hızlıdır. Bit alanı çizimi devre dışı bırakıldığında bellek gereksinimlerinin azaldığını görebilirsiniz. CPU tasarımınız 2010'dan önceyse, bit alanı grafiğini devre dışı bırakmanız gerekebilir."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
 #~ msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
@@ -1406,7 +1406,7 @@ msgstr "Kaydet"
 
 #: src/components/fullNode/FullNodeBlockSearch.tsx:30
 msgid "Search block by header hash"
-msgstr ""
+msgstr "Blok Başlığına Göre Ara"
 
 #: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:75
 msgid "Second temporary folder location"
@@ -1836,7 +1836,7 @@ msgstr "Benzersiz Tanımlayıcı"
 
 #: src/components/core/components/LocaleToggle/LocaleToggle.tsx:32
 msgid "Unknown"
-msgstr ""
+msgstr "Bilinmeyen"
 
 #: src/components/wallet/create/createRLAdmin.jsx:307
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:300
