@@ -8,7 +8,7 @@ msgstr ""
 "Language: sv_SE\n"
 "Project-Id-Version: chia-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-04-23 18:33\n"
+"PO-Revision-Date: 2021-04-24 00:29\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -1231,7 +1231,7 @@ msgstr "Parallell plottning kan spara tid. Lägg annars till plottar i kön."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
 msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disable bitfield plotting."
-msgstr "Plotting med bitfield aktiverat get ungefär 30% mindre antal skrivningar och är nästan alltid snabbare. Du bör se minskat minnesutnyttjande när bitfield plotting är avaktiverat. Om din processor är äldre än 2010 kan du behöva avaktiverat bitfield plotting."
+msgstr "Plottning med bitfield aktiverat ger ungefär 30 % färre skrivningar och är nästan alltid snabbare. Du kan se minskad minnesanvändning när bitfield-plottning är avaktiverad. Om din processor är äldre än 2010 kan du behöva avaktivera bitfield-plottning."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
 #~ msgid "Plotting with bitfield enabled has about 30% less overall writes and is now almost always faster. You may see reduced memory requirements with bitfield plotting disabled. If your CPU design is from before 2010 you may have to disbale bitfield plotting."
