@@ -8,7 +8,7 @@ msgstr ""
 "Language: sk_SK\n"
 "Project-Id-Version: chia-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-04-25 12:32\n"
+"PO-Revision-Date: 2021-04-25 18:31\n"
 "Last-Translator: \n"
 "Language-Team: Slovak\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
@@ -99,7 +99,7 @@ msgstr "Adresa"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:748
 #: src/components/wallet/standard/WalletStandard.tsx:321
 msgid "Address / Puzzle hash"
-msgstr "Adresa"
+msgstr "Adresa / Hash šifry"
 
 #: src/components/trading/CreateOffer.jsx:213
 #: src/components/trading/TradesTable.tsx:16
@@ -615,7 +615,7 @@ msgstr "Očakávaný čas na výhru"
 
 #: src/components/fullNode/FullNode.jsx:197
 msgid "Estimated network space"
-msgstr "Odhadovaná velkosť siete"
+msgstr "Odhadovaná veľkosť siete"
 
 #: src/components/fullNode/FullNode.jsx:200
 msgid "Estimated sum of all the plotted disk space of all farmers in the network"
@@ -738,11 +738,11 @@ msgstr "Často kladené otázky (FAQ)"
 #: src/components/dashboard/DashboardSideBar.tsx:23
 #: src/components/fullNode/FullNode.jsx:312
 msgid "Full Node"
-msgstr "Domov"
+msgstr "Celý uzol"
 
 #: src/components/fullNode/FullNode.jsx:255
 msgid "Full Node Status"
-msgstr "Stav siete"
+msgstr "Stav celého uzla"
 
 #: src/electron/main.tsx:287
 msgid "Full Screen"
@@ -762,7 +762,7 @@ msgstr "HD alebo Hierarchické Deterministické kľúče sú typ schémy verejn�
 
 #: src/components/fullNode/FullNode.jsx:59
 msgid "Header Hash"
-msgstr "Poradie hlavičky"
+msgstr "Hash hlavičky"
 
 #: src/components/block/Block.jsx:180
 msgid "Header hash"
@@ -991,7 +991,7 @@ msgstr "Nie"
 
 #: src/middleware/middleware_api.jsx:283
 msgid "No 24 word seed, since this key is imported."
-msgstr ""
+msgstr "Žiadny 24-slovný seed, pretože tento kľúč je importovaný."
 
 #: src/components/farm/card/FarmCardLastHeightFarmed.tsx:8
 msgid "No blocks farmed yet"
@@ -1105,7 +1105,7 @@ msgstr "Prosím pridajte obchodný pár"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:712
 msgid "Please enter 0 fee. Positive fees not supported yet for RL."
-msgstr ""
+msgstr "Zadajte nulový poplatok. Kladné nenulové poplatky ešte nie sú pre RL podporované."
 
 #: src/components/wallet/create/createRLAdmin.jsx:146
 msgid "Please enter a valid initial coin amount"
@@ -1274,7 +1274,7 @@ msgstr "Predchádzajúci"
 
 #: src/components/block/Block.jsx:208
 msgid "Previous Header Hash"
-msgstr ""
+msgstr "Hash predchádzajúceho záhlavia"
 
 #: src/components/block/Block.jsx:217
 #~ msgid "Previous Sub Block Hash"
@@ -1368,7 +1368,7 @@ msgstr "Obnoviť polia"
 
 #: src/electron/main.tsx:324
 msgid "Release Notes"
-msgstr ""
+msgstr "Poznámky k vydaniu"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:206
 msgid "Rename"
@@ -1393,7 +1393,7 @@ msgstr ""
 
 #: src/components/backup/BackupRestore.tsx:122
 msgid "Safe To Skip"
-msgstr ""
+msgstr "Bezpečné preskočiť"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:105
 #: src/components/trading/CreateOffer.jsx:160
@@ -1406,7 +1406,7 @@ msgstr "Uložiť"
 
 #: src/components/fullNode/FullNodeBlockSearch.tsx:30
 msgid "Search block by header hash"
-msgstr ""
+msgstr "Hľadanie bloku podľa hashu záhlavia"
 
 #: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:75
 msgid "Second temporary folder location"
@@ -1509,7 +1509,7 @@ msgstr ""
 
 #: src/electron/main.tsx:409
 msgid "Speech"
-msgstr ""
+msgstr "Reč"
 
 #: src/components/wallet/create/createRLAdmin.jsx:247
 msgid "Spendable Amount"
@@ -1528,7 +1528,7 @@ msgstr "Disponibilný zostatok"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:408
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:459
 msgid "Spending Interval (number of blocks): {interval}"
-msgstr ""
+msgstr "Interval výdavkov (počet blokov): {interval}"
 
 #: src/components/wallet/create/createRLAdmin.jsx:209
 msgid "Spending Interval Length (number of blocks)"
@@ -1537,7 +1537,7 @@ msgstr "Dĺžka disponibilného intervalu (počet blokov)"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
 msgid "Spending Limit (chia per interval): {0}"
-msgstr ""
+msgstr "Limit výdavkov (chia na interval): {0}"
 
 #: src/components/fullNode/FullNode.jsx:94
 msgid "State"
@@ -1635,11 +1635,11 @@ msgstr "Dočasný adresár"
 
 #: src/components/app/AppTimeBomb.tsx:28
 msgid "The application will stop working at block height 193536."
-msgstr ""
+msgstr "Aplikácia prestane pracovať pri výške bloku 193536."
 
 #: src/components/farm/FarmFullNodeConnections.tsx:58
 msgid "The full node that your farmer is connected to is below. <0>Learn more</0>"
-msgstr ""
+msgstr "Celý uzol, ku ktorému je váš farmár pripojený, je uvedený nižšie. <0> Ďalšie informácie </0>"
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
 #: src/components/plot/add/PlotAddChooseSize.tsx:74
@@ -1698,7 +1698,7 @@ msgstr "Toto je súčet prichádzajúcich a odchádzajúcich nespracovaných tra
 
 #: src/components/fullNode/FullNode.jsx:173
 msgid "This is the time of the latest peak sub block."
-msgstr ""
+msgstr "Toto je čas posledného najvyššieho podbloku."
 
 #: src/components/block/Block.jsx:187
 msgid "This is the time the block was created by the farmer, which is before it is finalized with a proof of time"
@@ -1820,7 +1820,7 @@ msgstr "História ponúk"
 
 #: src/components/block/Block.jsx:279
 msgid "Transactions Filter Hash"
-msgstr ""
+msgstr "Hash filtra transakcií"
 
 #: src/components/wallet/WalletHistory.tsx:22
 msgid "Type"
@@ -1836,7 +1836,7 @@ msgstr "Jedinečný identifikátor"
 
 #: src/components/core/components/LocaleToggle/LocaleToggle.tsx:32
 msgid "Unknown"
-msgstr ""
+msgstr "Neznáme"
 
 #: src/components/wallet/create/createRLAdmin.jsx:307
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:300
@@ -1845,11 +1845,11 @@ msgstr "Používateľov verejný kľúč"
 
 #: src/components/fullNode/FullNode.jsx:185
 msgid "VDF Sub Slot Iterations"
-msgstr ""
+msgstr "VDF dielčie Iterácie slotu"
 
 #: src/electron/main.tsx:251
 msgid "View"
-msgstr ""
+msgstr "Zobrazenie"
 
 #: src/components/plot/queue/PlotQueueActions.tsx:54
 #: src/components/plot/queue/PlotQueueLogDialog.tsx:26
