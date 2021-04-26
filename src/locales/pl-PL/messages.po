@@ -8,7 +8,7 @@ msgstr ""
 "Language: pl_PL\n"
 "Project-Id-Version: chia-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-04-25 12:32\n"
+"PO-Revision-Date: 2021-04-26 00:36\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
@@ -65,7 +65,7 @@ msgstr "Dodaj"
 
 #: src/components/plot/PlotHeader.tsx:51
 msgid "Add Plot Directory"
-msgstr "Dodaj folder z działkami"
+msgstr "Dodaj folder z grządkami"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:44
 msgid "Add Plot to Queue"
@@ -80,7 +80,7 @@ msgstr "Dodaj Portfel"
 #: src/components/plot/add/PlotAdd.tsx:55
 #: src/components/plot/overview/PlotOverviewHero.tsx:29
 msgid "Add a Plot"
-msgstr "Dodaj działkę"
+msgstr "Dodaj grządkę"
 
 #: src/components/plot/PlotAddDirectoryDialog.tsx:40
 msgid "Add a plot"
@@ -129,7 +129,7 @@ msgstr "Czy na pewno chcesz rozłączyć?"
 
 #: src/electron/main.tsx:164
 msgid "Are you sure you want to quit? GUI Plotting and farming will stop."
-msgstr "Czy na pewno chcesz zamknąć program? GUI Plotting i farmienie zostanią zatrzymane."
+msgstr "Czy na pewno? Oranie i uprawa grządek zostanią zatrzymane."
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:31
 #~ msgid "Are you sure you want to use k={plotSize}"
@@ -632,7 +632,7 @@ msgstr "Pomiń folder docelowy"
 
 #: src/components/plot/PlotsFailed.tsx:24
 msgid "Failed to open (invalid plots)"
-msgstr "Nieudało się otworzyć (nie prawidłowe działki)"
+msgstr "Nie udało się uprawiać (nieprawidłowe grządki)"
 
 #: src/components/dashboard/DashboardSideBar.tsx:26
 #: src/components/wallet/coloured/WalletColoured.tsx:430
@@ -667,7 +667,7 @@ msgstr "Rolnicy zarabiają nagrody blokowe i marże od transakcji poprzez użycz
 #: src/components/farm/card/FarmCardStatus.tsx:29
 #: src/components/plot/PlotStatus.tsx:14
 msgid "Farming"
-msgstr "Farmienie"
+msgstr "Uprawa"
 
 #: src/components/farm/card/FarmCardStatus.tsx:11
 #: src/components/farm/card/FarmCardStatus.tsx:16
